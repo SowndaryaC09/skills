@@ -75,3 +75,10 @@ To https://github.com/SowndaryaC09/skills.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 
+_______________________________________________
+
+For New File 
+git add -A 
+git commit -m "some message" 
+git push
+
