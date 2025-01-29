@@ -1,0 +1,77 @@
+D:\REPOSITORIES\SKILLS>git init
+Initialized empty Git repository in D:/REPOSITORIES/SKILLS/.git/
+
+
+D:\REPOSITORIES\SKILLS>git add -A
+
+D:\REPOSITORIES\SKILLS>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1. Python/Readme.txt
+        new file:   1. Python/basic.py
+        new file:   1. Python/basics.ipynb
+        new file:   10. Pytorch/Readme.txt
+        new file:   11. BeatifulSoup/Readme.txt
+        new file:   12. Lxml/Readme.txt
+        new file:   13. FastAPI/Readme.txt
+        new file:   14. FlaskAPI/Readme.txt
+        new file:   15. Django/Readme.txt
+        new file:   16. Git/Readme.txt
+        new file:   17. Database/Readme.txt
+        new file:   2. Numpy/Readme.txt
+        new file:   3. Pandas/Readme.txt
+        new file:   4. Data-Visualization/Readme.txt
+        new file:   5. Sciket-learn/Readme.txt
+        new file:   6. Sciket-image/Readme.txt
+        new file:   7. Pillow/Readme.txt
+        new file:   8. OpenCV/Readme.txt
+        new file:   9. Tensorflow/Readme.txt
+        new file:   README.md
+        new file:   Requirement.txt
+
+
+
+D:\REPOSITORIES\SKILLS>git branch -M main
+
+D:\REPOSITORIES\SKILLS>git remote add origin https://github.com/SowndaryaC09/skills.git
+
+D:\REPOSITORIES\SKILLS>git commit -m "first commit"
+[main (root-commit) e4028e2] first commit
+ 21 files changed, 931 insertions(+)
+ create mode 100644 1. Python/Readme.txt
+ create mode 100644 1. Python/basic.py
+ create mode 100644 1. Python/basics.ipynb
+ create mode 100644 10. Pytorch/Readme.txt
+ create mode 100644 11. BeatifulSoup/Readme.txt
+ create mode 100644 12. Lxml/Readme.txt
+ create mode 100644 13. FastAPI/Readme.txt
+ create mode 100644 14. FlaskAPI/Readme.txt
+ create mode 100644 15. Django/Readme.txt
+ create mode 100644 16. Git/Readme.txt
+ create mode 100644 17. Database/Readme.txt
+ create mode 100644 2. Numpy/Readme.txt
+ create mode 100644 3. Pandas/Readme.txt
+ create mode 100644 4. Data-Visualization/Readme.txt
+ create mode 100644 5. Sciket-learn/Readme.txt
+ create mode 100644 6. Sciket-image/Readme.txt
+ create mode 100644 7. Pillow/Readme.txt
+ create mode 100644 8. OpenCV/Readme.txt
+ create mode 100644 9. Tensorflow/Readme.txt
+ create mode 100644 README.md
+ create mode 100644 Requirement.txt
+
+D:\REPOSITORIES\SKILLS>git push -u origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (18/18), 9.08 KiB | 1.01 MiB/s, done.
+Total 18 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/SowndaryaC09/skills.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
